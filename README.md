@@ -84,18 +84,18 @@ setuptools 49.2.1
 
 ## Create virtual environment(s)
 It is always recommended to create virtual environments per project which will allow you to install different Python packages.   
-Create a new Python environment called `myenv`:
+Create a new Python environment called `venv`:
 ```
-$ python3.9 -m venv myenv
+$ python3.9 -m venv venv
 ```
 Activate the environment:
 ```
-$ source myenv/bin/activate
+$ source venv/bin/activate
 ```
 From now on `python` can be used as command:
 ```
 $ which python
-/home/wim/myenv/bin/python
+/home/wim/venv/bin/python
 $ python -V
 Python 3.9.5
 ```
